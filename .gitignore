@@ -1,0 +1,17 @@
+# .env.local  / models/
+.env.local
+models/
+__pycache__/
+*.pyc
+review/
+samples/
+tests/
+
+# 前端构建产物 / 便携版 node 运行时
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+frontend/node.exe
+frontend/corepack*
+frontend/npm*
+frontend/npx*
